@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 150px 150px;
+}
+.frame{
+    width: 1219px;
+    height: 2000px;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-image: url('banner.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.Sign{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Sign li{
+    float: left;
+    display: inline block;
+    margin: 10px;
+}
+.Sign a{
+    color: white;
+}
+.Sign a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu {
+    background-color: #186bcc;
+}
+.menu li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.menu a{
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.menu a:hover{
+    background-color: #f1f1f1;
+    color: #186bcc;
+}
+.menucon{
+    position: absolute;
+    display: none;
+}
+.menu li:hover>.menucon{
+    display: block;
+    background-color: #186bcc;
+}
+article{
+    width: 65%;
+    height: 520px;
+    float: left;
+    margin-bottom: 50px;
+}
+.anhto{
+    width: 100%;
+    height: 30%;
+    background-image: url('daihoidang.jpg');
+    background-size: 100% 100%;
+}
+.anhnho{
+    width: 100%;
+    height: 50%;
+}
+.tintuc{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.tintuc>img{
+    display: flex;
+}
+.tintuc>a{
+    color: black;
+    font-size: 12.9px;
+    display: flex;
+}
+.tintuc>a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    height: 20%;
+    background-image: url('hoctapbacho.png');
+    background-size: 100% 100%;
+}
+aside{
+    width: 35%;
+    height: 520px;
+    float: right;
+    margin-bottom: 50px;
+}
+.main{
+    width: 100%;
+    height: 10%;
+    border-bottom: 3px solid #186bcc;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+.main>p{
+    color: #186bcc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 10%;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+.content a{
+    color: black;
+    line-height: 50px;
+    text-shadow: 0 0 0.5px;
+}
+.content a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+.content img{
+    float: left;
+    padding-right: 15px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    clear: both;
+    border-top: 3px double #186bcc;
+    text-align: center;
+}

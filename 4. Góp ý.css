@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.frame{
+    width: 1219px;
+    height: 800px;
+}
+header{
+    width: 100%;
+    height: 25%;
+    background-image: url('banner.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.Sign{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Sign li{
+    float: left;
+    display: inline block;
+    margin: 10px;
+}
+.Sign a{
+    color: white;
+}
+.Sign a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu {
+    background-color: #186bcc;
+}
+.menu li{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.menu a{
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+.menu a:hover{
+    background-color: #f1f1f1;
+    color: #186bcc;
+}
+.menucon{
+    position: absolute;
+    display: none;
+}
+.menu li:hover>.menucon{
+    display: block;
+    background-color: #186bcc;
+}
+article{
+    width: 100%;
+    height: 65%;
+    padding: 20px;
+}
+form{
+    width: 50%;
+}
+.label{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.input{
+    width: 98%;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+button{
+    padding: 8px 30px;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    background-color: lightblue;
+    box-shadow: inset 0 0 10px #186bcc;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    clear: both;
+    border-top: 3px double #186bcc;
+    text-align: center;
+}
